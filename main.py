@@ -83,7 +83,7 @@ root.wm_iconbitmap("C:\\Users\\andro\\Downloads\\play (1).ico")
 mixer.init()
 
 #create the listbox to contain songs
-songs_list=Listbox(root,selectmode=SINGLE,bg="black",fg="white",font=('arial',15),height=12,width=60,selectbackground="white",selectforeground="black")
+songs_list=Listbox(root,selectmode=SINGLE,bg="black",fg="white",font=('arial',15),height=20,width=60,selectbackground="white",selectforeground="black")
 songs_list.grid(columnspan=9)
 
 #font is defined which is to be used for the button font 
